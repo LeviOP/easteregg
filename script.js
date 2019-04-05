@@ -1,7 +1,7 @@
 var today = new Date();
 var minsCode = today.getMinutes();
 var hoursCode = today.getHours();
-var daysCode = today.getDays();
+var daysCode = today.getDay();
 document.addEventListener("DOMContentLoaded", function(){
     console.log("          ████████          \n        ██        ██        \n      ██▒▒          ██      \n    ██▒▒            ▒▒██    \n    ██▒▒            ▒▒██    \n  ██                  ▒▒██  \n  ██                  ▒▒██  \n██                        ██\n██                        ██\n██                      ▒▒██\n██▒▒                    ▒▒██\n  ██                  ▒▒██  \n  ██▒▒                ▒▒██  \n    ██▒▒              ██    \n      ████        ████      \n          ████████          ")
     console.log("To go have the next egg appear click the link below:")
