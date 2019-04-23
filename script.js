@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", function(){
     if(window.location.href.indexOf("?code=" + daysCode + hoursCode + minsCode) > -1) {
        alert("Here is the next egg. (This message will always appear; if you ever don't see it, you will have to go through the whole system again, starting form the beginning.");
        document.getElementById("pre").style.color = "White"
-       document.getElementById("pre").innerHTML = "          ████████          \n        ██        ██        \n      ██▒▒          ██      \n    ██▒▒            ▒▒██    \n    ██▒▒            ▒▒██    \n  ██                  ▒▒██  \n  ██                  ▒▒██  \n██                        ██\n██                        ██\n██                      ▒▒██\n██▒▒                    ▒▒██\n  ██                  ▒▒██  \n  ██▒▒                ▒▒██  \n    ██▒▒              ██    \n      ████        ████      \n          ████████          ";
+       document.getElementById("pre").style.cursor = "Default"
+       document.getElementById("pre").innerHTML = "          ████████          \n        ██        ██        \n      ██▒▒          ██      \n    ██▒▒            ▒▒██    \n    ██▒▒            ▒▒██    \n  ██                  ▒▒██  \n  ██                  ▒▒██  \n██                        ██\n██                        ██\n██                      ▒▒██\n██▒▒                    ▒▒██\n  ██                  ▒▒██  \n  ██▒▒                ▒▒██  \n    ██▒▒              ██    \n      ████        ████      \n          ████████          \nHere is the next egg:\nhttps://easteregg.ml/?code=" + minsCode + hoursCode + daysCode;
     }
 });
 
