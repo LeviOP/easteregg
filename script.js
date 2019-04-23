@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function(){
     console.log("To go have the next egg appear click the link below:")
     console.log("https://easteregg.ml/?code=" + daysCode + hoursCode + minsCode)
     if(window.location.href.indexOf("?code=" + daysCode + hoursCode + minsCode) > -1) {
-       alert("here is the next egg");
+       alert("Here is the next egg. (This message will always appear; if you ever don't see it, you will have to go through the whole system again, starting form the beginning.");
     }
 });
 
